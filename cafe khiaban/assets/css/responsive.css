@@ -1,0 +1,199 @@
+@media (max-width: 768px) {
+
+    nav{
+        position: fixed;
+        width: 100vw;
+        height: 9vh;
+    }
+
+    .container{
+        width: 90vw;
+    }
+
+    .items{
+        width: 60vw;
+        gap: 3px;
+        height: 8vh;
+    }
+
+    .item-link{
+        font-size: 0.7rem;
+    }
+
+    .hero {
+        width: 100vw;
+        height: 58vh;
+    }
+
+    .titr1 {
+        font-size: 0.8rem;
+    }
+
+    .titr2 {
+        font-size: 0.6rem;
+    }
+
+    .love {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        height: 78vh;
+        width: 100vw;
+        justify-items: center;
+    }
+
+    .love h3 {
+        font-size: 0.8rem;
+    }
+
+    .love p {
+        font-size: 0.7rem;
+    }
+
+    .love-pic {
+        width: 66vw;
+        height: auto;
+    }
+
+    .parallax{
+        width: 100vw;
+    }
+
+    .parallax h2 {
+        font-size: 0.9rem;
+    }
+
+    .parallax p {
+        font-size: 0.7rem;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        align-items: center;
+    }
+
+    .grid-container img {
+        width: 35vw;
+        height: 19vh;
+
+    }
+
+    .textss {
+        width: 90vw;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-items: center;
+        margin: auto;
+        padding: 0;
+    }
+
+    .textss h2 {
+        font-size: 0.9rem;
+    }
+
+    .textss p {
+        font-size: 0.8rem;
+    }
+
+    .section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-items: center;
+        justify-content: center;
+        height: 100vh;
+        width: 84vw;
+    }
+
+    .hot {
+        background-image: url('../images/hot-pic.png');
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 60vh;
+        width: 100vw;
+    }
+
+    #hot-text{
+        font-size: 1rem;
+    }
+    #hot-p{
+        font-size: 0.9rem;
+    }
+    .section2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+        height: 100vh;
+        width: 92vw;
+    }
+    .txtsss{
+        width: 90vw;
+        height: 50vh;
+    }
+
+    .txtsss h2{
+        font-size: 1rem;
+    }
+
+    .txtsss p{
+        font-size: 0.9rem;
+    }
+
+    .about-us{
+        width: 100vw;
+        height: 40vh;
+    }
+
+    #aboutus-h2{
+        font: 1rem;
+    }
+
+    .items-au{
+        width: 80vw;
+        display: flex;
+        align-items: center;
+        justify-items: center;
+    }
+    .joining{
+        width: 60vw;
+        display: flex;
+        align-items: center;
+        justify-items: center;
+    }
+
+    .icons{
+        font-size: 0.65rem;
+    }
+
+    .join-follow{
+        font-size: 0.7rem;
+    }
+
+    .email-inp{
+        width: 20%;
+    }
+
+    .last-div{
+        width: 100vw;
+        height: 20vh;
+    }
+
+    .last-h3{
+        font-size: 0.9rem;
+    }
+
+    .last-h3{
+        font-size: 0.8rem;
+    }
+}
