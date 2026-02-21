@@ -16,7 +16,6 @@ html {
     scroll-behavior: smooth;
 }
 
-
 .hero {
     position: relative;
     width: 100vw;
@@ -37,14 +36,12 @@ html {
     display: flex;
 }
 
-
 .item-link {
     color: rgba(255, 255, 255, 0.8);
 }
 
 .item-link:hover {
-    color: white;
-}
+    color: white;}
 
 nav {
     background-color: rgba(0, 0, 0, 0.9);
@@ -52,7 +49,6 @@ nav {
     position: fixed;
     z-index: 100;
     width: 100vw;
-
 }
 
 .bg-img {
@@ -258,4 +254,3 @@ nav {
     color: white;
     opacity: 0.9;
     font-weight: 400;
-}
